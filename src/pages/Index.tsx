@@ -84,16 +84,6 @@ const beverages = [
 const Index = () => {
   return (
     <div className="min-h-screen bg-white text-black">
-      <QRCode />
-      
-      {/* Background pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <div className="w-full h-full" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='m20 20 20 20-20-20z'/%3E%3C/g%3E%3C/svg%3E")`,
-          backgroundSize: '40px 40px'
-        }}>
-        </div>
-      </div>
       
       <div className="relative z-10 container mx-auto px-8 py-16 max-w-5xl">
         <MenuHeader />
@@ -119,9 +109,6 @@ const Index = () => {
             <div className="w-20 h-px bg-amber-400"></div>
           </div>
           
-          <p className="text-gray-400 text-sm mb-4 tracking-wide">
-            ALL PRICES SUBJECT TO CHANGE • PLEASE INFORM US OF ANY ALLERGIES
-          </p>
           <p className="text-amber-400 font-semibold text-lg tracking-wide">
             THANK YOU FOR DINING WITH US
           </p>
